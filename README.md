@@ -21,7 +21,7 @@ To complete the steps in this tutorial, you need to:
 ## Steps:
 1. [Clone the application & understand the architecture of our monolithic application](#1-clone-the-application)
 2. [Let's understand how to break down our monolithic application]
-3. [How to initialize and do local development using Codewind in Visual Studio](#2-clone-the-application)
+3. [How to initialize , do local development and testing using Codewind in Visual Studio](#2-clone-the-application)
 4. [Intialize Tekton and integrate with our Github repository]
 5. [Scale the application on your needs ]
 6. [Check if the microservices are up and running]
