@@ -14,7 +14,7 @@ Running on Red Hat® OpenShift®, IBM Cloud Pak for Applications provides a hybr
 To complete the steps in this tutorial, you need to:
 1. [Install Docker](https://docs.docker.com/install/) on your local machine.
 
-2. Install VS code [Visual Studio Code](https://code.visualstudio.com/) set up for local development.
+2. Install [Visual Studio Code](https://code.visualstudio.com/)for local development.
 
 3. Create Cloud Pak for Applications service from here
 
