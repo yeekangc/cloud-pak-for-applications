@@ -16,13 +16,15 @@ To complete the steps in this tutorial, you need to:
 
 2.Install VS code [Visual Studio Code](https://code.visualstudio.com/) set up for local development.
 
-3.Create Cloud Pak for Applications service from here 
+3.Create Cloud Pak for Applications service from here
 
 ## Steps:
 1. [Clone the application & understand the architecture of monolithic application](#1-clone-the-application)
 2. [Let's understand how to break down our monolithic application]
-3.  [How to initialize and do local development using Codewind in Visual Studio](#2-clone-the-application)
-4.  [Intialize Tekton and integrate with out github repository]
+3. [How to initialize and do local development using Codewind in Visual Studio](#2-clone-the-application)
+4. [Intialize Tekton and integrate with our Github repository]
+5. [Scale the application on your needs ]
+6. [Check if the microservices are up and running]
 
 
 
