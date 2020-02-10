@@ -51,11 +51,11 @@ Once we have decided which service needs to be converted into micro-services  , 
 #### Breaking into Microservices
 Right now we are working with two microservices.
 
-1.Admin Microservice:
+1. Admin Microservice:
 Clone the admin microservice repo form here :
-We have two services(admin_logn & admin) in the project .
+We have two services(admin_logn & admin) in the project.
 
-2.Customer Microservice :
+2. Customer Microservice :
 Clone the admin microservice repo form here :
-We have two services(customer_logn & customer) in the project .
+We have two services(customer_logn & customer) in the project.
 
