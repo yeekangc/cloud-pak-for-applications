@@ -19,12 +19,17 @@ To complete the steps in this tutorial, you need to:
 3. Create Cloud Pak for Applications service from here
 
 ## Steps:
-1. [Clone the application & understand the architecture of our monolithic application](#1-clone-the-application)
+1. [Clone & understand the architecture of monolithic application](#1-clone-the-application)
 2. [Let's understand how to break down our monolithic application]
 3. [How to initialize , do local development and testing using Codewind in Visual Studio](#2-clone-the-application)
 4. [Intialize Tekton and integrate with our Github repository]
 5. [Scale the application on your needs ]
 6. [Check if the microservices are up and running]
 
+
+# Step 1 :Clone & understand the architecture of monolithic application
+1. We'll use this repo as it contains our Banking Monolithic Application. 
+2. Open your terminal and change your directory by using the cd downloads command. (Or any other directory in which you want to clone the project)
+3. Run command `git clone https://github.com/mahsankhaan/appsody.git`.   
 
 
