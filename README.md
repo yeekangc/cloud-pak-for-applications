@@ -27,10 +27,13 @@ To complete the steps in this tutorial, you need to:
 6. [Check if the microservices are up and running]
 
 
-# Step 1 :Clone & understand the architecture of monolithic application
+### Step 1 :Clone & understand the architecture of monolithic application
 1. We'll use this repo as it contains our Banking Monolithic Application. 
 2. Open your terminal and change your directory by using the cd downloads command. (Or any other directory in which you want to clone the project)
 3. Run command `https://github.com/mahsankhaan/cloud-pak-for-applications.git`.   
 4. Open the project in Visual Studio.
 
+Lets Understand the architecture of monolithic application:
+There are 5 services under "views" folder running in a single node.js project that are tightly coupled. If we get a traffic on a single service , complete project goes down that is one of the major disadvantage of monolithic architecture. 
+![GitHub Logo](images/s1.png)
 
