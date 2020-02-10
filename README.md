@@ -18,6 +18,8 @@ To complete the steps in this tutorial, you need to:
 
 3. Create Cloud Pak for Applications service from here
 
+4. Must have Github account 
+
 ## Steps:
 1. [Clone & understand the architecture of monolithic application](#1-clone-the-application)
 2. [Let's understand how to break down our monolithic application]
