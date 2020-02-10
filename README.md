@@ -56,6 +56,6 @@ Clone the admin microservice repo form here :
 We have two services(admin_logn & admin) in the project.
 
 2. Customer Microservice :
-Clone the admin microservice repo form here :
+Clone the customer microservice repo form here :
 We have two services(customer_logn & customer) in the project.
 
