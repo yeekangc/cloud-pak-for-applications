@@ -56,8 +56,10 @@ Right now we are working with two microservices.
 1. Admin Microservice:
 Clone the admin microservice repo form here :
 We have two services(admin_logn & admin) in the project.
+![GitHub Logo](images/s2.png)
 
 2. Customer Microservice :
 Clone the customer microservice repo form here :
 We have two services(customer_logn & customer) in the project.
+![GitHub Logo](images/s3.png)
 
