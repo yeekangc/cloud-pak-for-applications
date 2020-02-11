@@ -64,7 +64,7 @@ Once we have decided which service needs to be converted into micro-services  , 
 11. Test your application by selecting **Application Monitor** and hit the application 2 or 3 times to see the changes.
 12. Run `appsody build` so that application would be ready to deploy on any cloud.
 13. After the command executed successfully on left there will be new file named as **app-deploy.yaml**.
-14. Steps form 1-14 will be followed to create 2 microservice **micro-user** 
+14. Follow steps form 1-13 to create 2 microservice **Micro-User** 
 
 15. Once two microservices are created we can upload it to centeral repositry **GitHHub**.
 
