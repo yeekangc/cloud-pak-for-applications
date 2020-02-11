@@ -42,20 +42,12 @@ There are 5 services under "views" folder running in a single node.js project th
 ### Step 2 :Let's understand how to break down our monolithic application
 When we cloned our project we saw there are 5 services running in the project , lets break down our monolithic application by evaluating which services are tightly coupled and on the high load on that service can effect the other services and maybe complete project. So let breakdown admin and customer services.
 
-Right now we are working with two microservices.
+There will be two microservices.
 
-1. Admin Microservice:
-Clone the admin microservice repo form here :
-We have two services(admin_logn & admin) in the project.
-![GitHub Logo](images/s2.png)
+1. Admin Microservice
+2. Customer Microservice
 
-2. Customer Microservice :
-Clone the customer microservice repo form here :
-We have two services(customer_logn & customer) in the project.
-![GitHub Logo](images/s3.png)
-
-
-### Step 3 :Initialize Codewind in Visual Studio for Local development , Containerized and Testing
+### Step 3 :Initialize Codewind in Visual Studio to create microserivce , test and deploy to Github
 Once we have decided which service needs to be converted into micro-services  , initialize codewind in our visual studio that will help us to do local development , testing services and containerizing it. Please follow the below steps to work with codewind:
 
 1. Open VisualStudio.
@@ -63,7 +55,14 @@ Once we have decided which service needs to be converted into micro-services  , 
 3. Select Install and kindly wait it will take some time to initialize.
 4. Once successfully installed you'll be able to see "Codewind" section on the left
 5. Select "Codewind" and start local codewind.
-6. Right click on local and select "Create New Project" (Step 2 is compulsory for this step)
+6. Right click on local and select "Create New Project" 
 7. Select templete "Kabanero Node.js Express simple template" 
 8. Give it the name "micro-admin".
 9. Now your structure will be something like 
+![GitHub Logo](images/s2.png)
+10. Select Codewind and "build the project" , application must be up and running.
+11. Test your application by selecting "Application Monitor" and hit the application 2 o 3 times to see the changes.
+12. Once testing and local development is completed we can containerize it by using command "appsody build".
+13. After application successfully build  there will be a new file on the left named as "app-deploy.yaml".
+
+
