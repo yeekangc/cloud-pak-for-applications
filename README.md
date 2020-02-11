@@ -23,7 +23,7 @@ To complete the steps in this tutorial, you need to:
 ## Steps:
 1. [Clone & understand the architecture of monolithic application](#1-clone-the-application)
 2. [Let's understand how to break down our monolithic application]
-3. [How to initialize , do local development and testing using Codewind in Visual Studio](#2-clone-the-application)
+3. [Initialize Codewind in Visual Studio to create microserivces,test and deploy to Github](#2-clone-the-application)
 4. [Intialize Tekton and integrate with our Github repository]
 5. [Scale the application on your needs ]
 6. [Check if the microservices are up and running]
@@ -57,12 +57,14 @@ Once we have decided which service needs to be converted into micro-services  , 
 5. Select **Codewind** and start local codewind.
 6. Right click on local and select **Create New Project** 
 7. Select templete **Kabanero Node.js Express simple template**
-8. Give it the name "micro-admin".
+8. Name it as **micro-admin**.
 9. Now your structure will be something like 
 ![GitHub Logo](images/s2.png)
 10. Select Codewind and **build the project** , application must be up and running.
-11. Test your application by selecting **Application Monitor** and hit the application 2 o 3 times to see the changes.
+11. Test your application by selecting **Application Monitor** and hit the application 2 or 3 times to see the changes.
 12. Run `appsody build` so that application would be ready to deploy on any cloud.
 13. After the command executed successfully on left there will be new file named as **app-deploy.yaml**.
+14. Steps form 1-14 will be followed to create 2 microservice **micro-user** 
 
+15. Once two microservices are created we can upload it to centeral repositry **GitHHub**.
 
