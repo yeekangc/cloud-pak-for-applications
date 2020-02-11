@@ -62,7 +62,7 @@ Once we have decided which service needs to be converted into micro-services  , 
 ![GitHub Logo](images/s2.png)
 10. Select Codewind and **build the project** , application must be up and running.
 11. Test your application by selecting **Application Monitor** and hit the application 2 o 3 times to see the changes.
-12. Once testing and local development is completed we can containerize it by using command **appsody build**.
-13. After application successfully build  there will be a new file on the left named as **app-deploy.yaml**.
+12. Run `appsody build` so that application would be ready to deploy on any cloud.
+13. After the command executed successfully on left there will be new file named as **app-deploy.yaml**.
 
 
