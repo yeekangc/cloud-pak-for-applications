@@ -21,7 +21,7 @@ To complete the steps in this tutorial, you need to:
 4. Must have Github account 
 
 ## Steps:
-1. [Clone & understand the architecture of monolithic application](#1-clone-the-application)
+1. [Clone & understand the architecture of monolithic application](#1-clone-&-understand-the-architecture-of-monolithic-application)
 2. [Let's understand how to break down our monolithic application](#2-let's-understand-how-to-break-down-our-monolithic-application)
 3. [Initialize Codewind in Visual Studio to create microserivces,test and deploy to Github](#4-clone-the-application)
 4. [Intialize Tekton and integrate with our Github repository](#4-Intialize-Tekton-and-integrate-with-our-Github-repository)
