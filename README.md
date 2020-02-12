@@ -40,7 +40,7 @@ There are 5 services under "views" folder running in a single node.js project th
 ![GitHub Logo](images/s1.png)
 
 ### Step 2 :Let's understand how to break down our monolithic application
-When we cloned our project we saw there are 5 services running in the project , lets break down our monolithic application by evaluating which services are tightly coupled and on the high load on that service can effect the other services and maybe complete project. So let breakdown admin and customer services.
+There are 5 services running in the project , lets break down our monolithic application by evaluating which services are tightly coupled and on the high load on that service can effect the other services and maybe complete project. So let breakdown admin and customer services.
 
 There will be two microservices.
 
