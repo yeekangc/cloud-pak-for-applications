@@ -27,9 +27,11 @@ To complete the steps in this tutorial, you need to:
 4. [Intialize Tekton and integrate with our Github repository](#4-Intialize-Tekton-and-integrate-with-our-Github-repository)
 5. [Scale the application on your needs ]
 6. [Check if the microservices are up and running]
+7. [test](#7-test)
 
 
 ### 1. Clone & understand the architecture of monolithic application
+
 1. We'll use this repo as it contains our Banking Monolithic Application. 
 2. Open your terminal and change your directory by using the cd downloads command. (Or any other directory in which you want to clone the project)
 3. Run command `https://github.com/mahsankhaan/cloud-pak-for-applications.git`.   
@@ -78,3 +80,5 @@ To learn more about Codewind please visit [here](https://www.eclipse.org/codewin
 
 
 ### Step 4:Intialize Tekton and integrate with our Github repository
+
+### 7. test
