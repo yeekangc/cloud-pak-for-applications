@@ -21,8 +21,8 @@ To complete the steps in this tutorial, you need to:
 4. Must have Github account 
 
 ## Steps:
-1. [Clone & understand the architecture of monolithic application](#1-clone-&-understand-the-architecture-of-monolithic-application)
-2. [Lets understand how to break down our monolithic application](#2-lets-understand-how-to-break-down-our-monolithic-application)
+1. [Clone and understand the architecture of monolithic application](#1-clone-and-understand-the-architecture-of-monolithic-application)
+2. [Understand how to break down our monolithic application](#2-understand-how-to-break-down-our-monolithic-application)
 3. [Initialize Codewind in Visual Studio to create microserivces,test and deploy to Github](#4-clone-the-application)
 4. [Intialize Tekton and integrate with our Github repository](#4-Intialize-Tekton-and-integrate-with-our-Github-repository)
 5. [Scale the application on your needs ]
@@ -30,7 +30,7 @@ To complete the steps in this tutorial, you need to:
 7. [test](#7-test)
 
 
-### 1. Clone & understand the architecture of monolithic application
+### 1. Clone and understand the architecture of monolithic application
 
 1. We'll use this repo as it contains our Banking Monolithic Application. 
 2. Open your terminal and change your directory by using the cd downloads command. (Or any other directory in which you want to clone the project)
@@ -41,7 +41,7 @@ To complete the steps in this tutorial, you need to:
 There are 5 services under "views" folder running in a single project that are tightly coupled. If we get a traffic on a single service , complete project goes down that is one of the major disadvantage of monolithic architecture. 
 ![GitHub Logo](images/s1.png)
 
-### 2. Lets understand how to break down our monolithic application
+### 2. Understand how to break down our monolithic application
 There are 5 services running in the project , lets break down our monolithic application by evaluating which services are tightly coupled and on the high load on that service can effect the other services and maybe complete project. So let breakdown admin and customer services.
 
 There will be two microservices.
