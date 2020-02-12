@@ -23,7 +23,7 @@ To complete the steps in this tutorial, you need to:
 ## Steps:
 1. [Clone and understand the architecture of monolithic application](#1-clone-and-understand-the-architecture-of-monolithic-application)
 2. [Understand how to break down our monolithic application](#2-understand-how-to-break-down-our-monolithic-application)
-3. [Initialize Codewind in Visual Studio to create microserivces,test and deploy to Github](#4-clone-the-application)
+3. [Install Codewind in Visual Studio to create microserivces,test and deploy to Github](#3-install-codewind-in-visual-studio- to-create-microserivces-,-test-and-deploy-to-github)
 4. [Intialize Tekton and integrate with our Github repository](#4-Intialize-Tekton-and-integrate-with-our-Github-repository)
 5. [Scale the application on your needs ]
 6. [Check if the microservices are up and running]
@@ -49,7 +49,7 @@ There will be two microservices.
 1. Admin Microservice
 2. Customer Microservice
 
-### Step 3 :Initialize Codewind in Visual Studio to create microserivce , test and deploy to Github
+### 3. Install Codewind in Visual Studio to create microserivce , test and deploy to Github
 Once we have decided which service needs to be converted into micro-services  , initialize codewind in our visual studio that will help us to do local development , testing services and containerizing it. Please follow the below steps to work with codewind:
 
 1. Open VisualStudio.
