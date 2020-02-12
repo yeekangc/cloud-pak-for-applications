@@ -24,7 +24,7 @@ To complete the steps in this tutorial, you need to:
 1. [Clone and understand the architecture of monolithic application](#1-clone-and-understand-the-architecture-of-monolithic-application)
 2. [Understand how to break down our monolithic application](#2-understand-how-to-break-down-our-monolithic-application)
 3. [Install Codewind in Visual Studio to create microserivces,test and deploy to Github](#3-install-codewind-in-visual-studio- to-create-microserivces-test-and-deploy-to-github)
-4. [Intialize Tekton and integrate with our Github repository](#4-Intialize-Tekton-and-integrate-with-our-Github-repository)
+4. [Intialize Tekton and integrate with Github repository](#4-intialize-tekton-and-integrate-with-github-repository)
 5. [Scale the application on your needs ]
 6. [Check if the microservices are up and running]
 7. [test](#7-test)
@@ -79,6 +79,6 @@ If we face any difficulty in creating microservices please take a look here:
 To learn more about Codewind please visit [here](https://www.eclipse.org/codewind/mdt-vsc-overview.html)
 
 
-### Step 4:Intialize Tekton and integrate with our Github repository
+### Step 4:Intialize Tekton and integrate with Github repository
 
 ### 7. test
