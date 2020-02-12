@@ -79,6 +79,6 @@ If we face any difficulty in creating microservices please take a look here:
 To learn more about Codewind please visit [here](https://www.eclipse.org/codewind/mdt-vsc-overview.html)
 
 
-### Step 4:Intialize Tekton and integrate with Github repository
+### 4. Intialize Tekton and integrate with Github repository
 
 ### 7. test
