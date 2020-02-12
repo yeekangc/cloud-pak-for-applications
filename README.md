@@ -71,7 +71,7 @@ Once we have decided which service needs to be converted into micro-services  , 
 15. Once two microservices are created we can upload it to centeral repositry **GitHHub**.
 
 If we face any difficulty in creating microservices please take a look here:
-[Admin-microservice](https://github.com/mahsankhaan/micro-admin.git)
-[User-microservice](https://github.com/mahsankhaan/micro-user.git)
+1.[Admin-microservice](https://github.com/mahsankhaan/micro-admin.git)
+2.[User-microservice](https://github.com/mahsankhaan/micro-user.git)
 
 To learn more about Codewind please visit [here](https://www.eclipse.org/codewind/mdt-vsc-overview.html)
