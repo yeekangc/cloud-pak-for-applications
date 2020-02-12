@@ -36,7 +36,7 @@ To complete the steps in this tutorial, you need to:
 4. Open the project in Visual Studio.
 
 #### Lets Understand the architecture of monolithic application:
-There are 5 services under "views" folder running in a single node.js project that are tightly coupled. If we get a traffic on a single service , complete project goes down that is one of the major disadvantage of monolithic architecture. 
+There are 5 services under "views" folder running in a single project that are tightly coupled. If we get a traffic on a single service , complete project goes down that is one of the major disadvantage of monolithic architecture. 
 ![GitHub Logo](images/s1.png)
 
 ### Step 2 :Let's understand how to break down our monolithic application
