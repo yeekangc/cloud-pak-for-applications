@@ -17,7 +17,7 @@ To complete the steps in this tutorial, you need to:
 
 2. Install [Visual Studio Code](https://code.visualstudio.com/) for local development.
 
-3. Create Cloud Pak for Applications service from here
+3. Get access to a Red Hat OpenShift on IBM Cloud cluster, with IBM Cloud Pak for Applications from [here](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster?cm_sp=ibmdev-_-developer-tutorials-_-cloudreg).
 
 4. Must have Github account 
 
