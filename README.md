@@ -59,9 +59,12 @@ Once we have decided which service needs to be converted into micro-services  , 
 7. Select templete **Kabanero Node.js Express simple template**
 8. Name it as **micro-admin**.
 9. Now your structure will be something like 
+
 ![GitHub Logo](images/s2.png)
+
 10. Select Codewind and **build the project** , application must be up and running.
 11. Test your application by right clicking micro-admin -> **Application Monitor** and hit the application 2 or 3 times to see the changes.
+
 ![GitHub Logo](images/s3.png)
 
 12. Run `appsody build` so that application would be ready to deploy on any cloud.
@@ -81,9 +84,11 @@ To learn more about Codewind please visit [here](https://www.eclipse.org/codewin
 
 Before we instailize Tekton it is really important to have github token ,so lets create two tokens for admin and user.
 Settings -> Developer settings -> personal access token -> generate new token 
+
 ![GitHub Logo](images/s6.png)
 
 Once both tokens are created you will able to see below image :
+
 ![GitHub Logo](images/s12.png)
 
 
@@ -103,11 +108,12 @@ Please follow below steps to intialize Tekton:
 5. Please go to Instance ,in Tools section select  **tekton** link and you will be redirected to below image.
 ![GitHub Logo](images/s5.png)
 6. Select **Webhook** from left menu and create two webhook for
-1. micro-admin
+a. micro-admin
 
 ![GitHub Logo](images/s7.png)
 
-2. micro-user 
+b. micro-user 
+
 ![GitHub Logo](images/s11.png)
 
 
