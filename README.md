@@ -113,6 +113,7 @@ Please follow below steps to intialize Tekton:
 ![GitHub Logo](images/s5.png)
 
 6. Select **Webhook** from left menu and create two webhook for
+
 a. micro-admin
 
 ![GitHub Logo](images/s7.png)
