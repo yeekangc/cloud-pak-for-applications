@@ -73,7 +73,7 @@ Once we have decided which service needs to be converted into micro-services  , 
 13. After the command executed successfully on left there will be new file named as **app-deploy.yaml**.
 14. Follow steps form 1-13 to create 2 microservice **micro-User** 
 
-15. Once two microservices are created we can upload it to centeral repositry **GitHHub**.
+15. Once two microservices are created we can upload it to centeral repositry **github**.
 
 If we face any difficulty in creating microservices please take a look here:
 1. [Admin-microservice](https://github.com/mahsankhaan/micro-admin.git)
