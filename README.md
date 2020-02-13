@@ -25,9 +25,7 @@ To complete the steps in this tutorial, you need to:
 2. [Understand how to break down our monolithic application](#2-understand-how-to-break-down-our-monolithic-application)
 3. [Install Codewind in Visual Studio to create microserivces,test and deploy to Github](#3-install-codewind-in-visual-studio- to-create-microserivces-test-and-deploy-to-github)
 4. [Intialize Tekton and integrate with Github repository](#4-intialize-tekton-and-integrate-with-github-repository)
-5. [Scale the application on your needs ]
-6. [Check if the microservices are up and running]
-7. [test](#7-test)
+5. [Verify if the microservices are up and running](#verify-if-the-microservices-are-up-and-running)
 
 
 ### 1. Clone and understand the architecture of monolithic application
@@ -68,7 +66,7 @@ Once we have decided which service needs to be converted into micro-services  , 
 
 12. Run `appsody build` so that application would be ready to deploy on any cloud.
 13. After the command executed successfully on left there will be new file named as **app-deploy.yaml**.
-14. Follow steps form 1-13 to create 2 microservice **Micro-User** 
+14. Follow steps form 1-13 to create 2 microservice **micro-User** 
 
 15. Once two microservices are created we can upload it to centeral repositry **GitHHub**.
 
@@ -81,4 +79,55 @@ To learn more about Codewind please visit [here](https://www.eclipse.org/codewin
 
 ### 4. Intialize Tekton and integrate with Github repository
 
-### 7. test
+Before we instailize Tekton it is really important to have github token ,so lets create two tokens for admin and user.
+Settings -> Developer settings -> personal access token -> generate new token 
+![GitHub Logo](images/s6.png)
+
+Once both tokens are created you will able to see below image :
+![GitHub Logo](images/s12.png)
+
+
+**IMPORTANT : Please copy the token ,as you won’t be able to see it again! **
+
+
+Tekton :
+Tekton is a powerful yet flexible Kubernetes-native open-source framework for creating continuous integration and delivery (CI/CD) systems.
+To know about it please visit [here](https://developer.ibm.com/articles/introduction-to-tekton-architecture-and-design/)
+
+Please follow below steps to intialize Tekton:
+1. Open Openshift Web Console.
+2. Once you are logged in successfully , select **Kabanero** from my project section.
+3. From left menu select **Cloud Pak for Applications**
+4. Now you can see the below screen.
+![GitHub Logo](images/s4.png)
+5. Please go to Instance ,in Tools section select  **tekton** link and you will be redirected to below image.
+![GitHub Logo](images/s5.png)
+6. Select **Webhook** from left menu and create two webhook for
+1. micro-admin
+
+![GitHub Logo](images/s7.png)
+
+2. micro-user 
+![GitHub Logo](images/s11.png)
+
+
+7 . Now check if tekton and github are successfully connected. 
+**IMPORTANT** Don't worry if you are getting red sign, it will turn green once the repo code is updated)
+
+![GitHub Logo](images/s8.png)
+
+
+8. Do some changes to github repositry and you will see it is successfully deployed.
+**IMPORTANT NOTE** : First do the changes in admin repo and once it is successfully deployed then update the user repo.
+
+![GitHub Logo](images/s9.png)
+
+
+### 5. Verify if the microservices are up and running
+1. Open Openshift dashboard.
+2. Once dashboard is open from left menu select Application.
+3. Go in routes and there will be two services up and running.
+4. To run the application click links in **Hostname**
+
+![GitHub Logo](images/s10.png)
+
