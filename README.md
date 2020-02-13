@@ -37,6 +37,7 @@ To complete the steps in this tutorial, you need to:
 
 #### Architecture of the monolithic application
 There are 5 services under "views" folder running in a single project that are tightly coupled. If we get a traffic on a single service , complete project goes down that is one of the major disadvantage of monolithic architecture. 
+
 ![GitHub Logo](images/s1.png)
 
 ### 2. Understand how to break down our monolithic application
@@ -104,9 +105,13 @@ Please follow below steps to intialize Tekton:
 2. Once you are logged in successfully , select **Kabanero** from my project section.
 3. From left menu select **Cloud Pak for Applications**
 4. Now you can see the below screen.
+
 ![GitHub Logo](images/s4.png)
+
 5. Please go to Instance ,in Tools section select  **tekton** link and you will be redirected to below image.
+
 ![GitHub Logo](images/s5.png)
+
 6. Select **Webhook** from left menu and create two webhook for
 a. micro-admin
 
@@ -118,12 +123,14 @@ b. micro-user
 
 
 7 . Now check if tekton and github are successfully connected. 
-**IMPORTANT** Don't worry if you are getting red sign, it will turn green once the repo code is updated)
+
+**IMPORTANT NOTE** Don't worry if you are getting red sign, it will turn green once the repo code is updated)
 
 ![GitHub Logo](images/s8.png)
 
 
 8. Do some changes to github repositry and you will see it is successfully deployed.
+
 **IMPORTANT NOTE** : First do the changes in admin repo and once it is successfully deployed then update the user repo.
 
 ![GitHub Logo](images/s9.png)
