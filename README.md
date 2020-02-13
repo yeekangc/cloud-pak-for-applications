@@ -45,12 +45,16 @@ There are 5 services under "views" folder running in a single project that are t
 ![GitHub Logo](images/ss1.png)
 
 ### 2. Understand how to break down our monolithic application
+
 There are 5 services running in the project , lets break down our monolithic application by evaluating which services are tightly coupled and on the high load on that service can effect the other services and maybe complete project. So let breakdown admin and customer services.
 
 There will be two microservices.
 
 1. Admin Microservice
 2. Customer Microservice
+
+![GitHub Logo](images/micro.png)
+
 
 ### 3. Install Codewind in Visual Studio to create microserivce test and deploy to github
 Once we have decided which service needs to be converted into micro-services  , initialize codewind in our visual studio that will help us to do local development , testing services and containerizing it. Please follow the below steps to work with codewind:
