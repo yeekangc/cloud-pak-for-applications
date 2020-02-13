@@ -23,8 +23,8 @@ To complete the steps in this tutorial, you need to:
 ## Steps:
 1. [Clone and understand the architecture of monolithic application](#1-clone-and-understand-the-architecture-of-monolithic-application)
 2. [Understand how to break down our monolithic application](#2-understand-how-to-break-down-our-monolithic-application)
-3. [Install Codewind in Visual Studio to create microserivces,test and deploy to Github](#3-install-codewind-in-visual-studio- to-create-microserivces-test-and-deploy-to-github)
-4. [Intialize Tekton and integrate with Github repository](#4-intialize-tekton-and-integrate-with-github-repository)
+3. [Install Codewind in Visual Studio to create microserivces test and deploy to github](#3-install-codewind-in-visual-studio- to-create-microserivces-test-and-deploy-to-github)
+4. [Intialize Tekton and integrate with github repository](#4-intialize-tekton-and-integrate-with-github-repository)
 5. [Verify if the microservices are up and running](#5-verify-if-the-microservices-are-up-and-running)
 
 
@@ -47,7 +47,7 @@ There will be two microservices.
 1. Admin Microservice
 2. Customer Microservice
 
-### 3. Install Codewind in Visual Studio to create microserivce , test and deploy to Github
+### 3. Install Codewind in Visual Studio to create microserivce test and deploy to github
 Once we have decided which service needs to be converted into micro-services  , initialize codewind in our visual studio that will help us to do local development , testing services and containerizing it. Please follow the below steps to work with codewind:
 
 1. Open VisualStudio.
@@ -77,7 +77,7 @@ If we face any difficulty in creating microservices please take a look here:
 To learn more about Codewind please visit [here](https://www.eclipse.org/codewind/mdt-vsc-overview.html)
 
 
-### 4. Intialize Tekton and integrate with Github repository
+### 4. Intialize Tekton and integrate with github repository
 
 Before we instailize Tekton it is really important to have github token ,so lets create two tokens for admin and user.
 Settings -> Developer settings -> personal access token -> generate new token 
