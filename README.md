@@ -5,13 +5,14 @@ In this tutorial , we will learn how to use Cloud Pak for Applications to break 
 ## Cloud Pak for Applications:
 The IBM Cloud Pak™ for Applications provides a complete and consistent experience to speed development of applications built for Kubernetes, using agile DevOps processes.
 
-Running on Red Hat® OpenShift®, IBM Cloud Pak for Applications provides a hybrid, multicloud foundation built on open standards, enabling workloads and data to run anywhere. It integrates two main opensource platforms Kabanero(https://kabanero.io/) and Appsody(https://appsody.dev/).
+Running on Red Hat® OpenShift®, IBM Cloud Pak for Applications provides a hybrid, multicloud foundation built on open standards, enabling workloads and data to run anywhere. It integrates two main opensource platforms [Kabanero](https://kabanero.io/) and [Appsody](https://appsody.dev/).
 
 
 
 ## Prerequisites:
 
 To complete the steps in this tutorial, you need to:
+
 1. [Install Docker](https://docs.docker.com/install/) on your local machine.
 
 2. Install [Visual Studio Code](https://code.visualstudio.com/) for local development.
