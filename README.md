@@ -120,8 +120,9 @@ Once both tokens are created you will able to see below image :
 **IMPORTANT : Please copy the token ,as you won’t be able to see it again! **
 
 
-Tekton :
-Tekton is a powerful yet flexible Kubernetes-native open-source framework for creating continuous integration and delivery (CI/CD) systems.
+Tekton and why are we using it ?
+Tekton is a powerful yet flexible Kubernetes-native open-source framework for creating continuous integration and delivery (CI/CD) systems. We are using Tekton because it is a built in tool in Cloud Pak for Applications that connect our central repositry **github** and **Webhook** that lift and shift our application source code form local development to cloud.
+
 To know about it please visit [here](https://developer.ibm.com/articles/introduction-to-tekton-architecture-and-design/)
 
 Please follow below steps to intialize Tekton:
