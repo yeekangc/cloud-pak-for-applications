@@ -42,7 +42,7 @@ To complete the steps in this tutorial, you need to:
 
 There are 5 services under "views" folder running in a single project that are tightly coupled. If we get a traffic on a single service , complete project goes down that is one of the major disadvantage of monolithic architecture. 
 
-![GitHub Logo](images/ss1.png)
+![GitHub Logo](images/sc.png)
 
 ### 2. Understand how to break down our monolithic application
  
