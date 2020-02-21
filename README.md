@@ -171,7 +171,7 @@ b. micro-user
 
 #### User :
 
-![GitHub Logo](images/ss1.png)
+![GitHub Logo](images/c1.png)
 
 #### Admin :
 
