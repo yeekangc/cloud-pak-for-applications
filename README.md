@@ -117,7 +117,7 @@ Once both tokens are created you will able to see below image :
 ![GitHub Logo](images/s12.png)
 
 
-**IMPORTANT : Please copy the token ,as you won’t be able to see it again! **
+**IMPORTANT NOTE :** Please copy the token ,as you won’t be able to see it again! 
 
 
 #### What is Tekton and why are we using it ?
