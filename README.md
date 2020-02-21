@@ -5,7 +5,7 @@ In this tutorial , we will learn how to use Cloud Pak for Applications to break 
 ## Cloud Pak for Applications:
 The IBM Cloud Pak™ for Applications provides a complete and consistent experience to speed development of applications built for Kubernetes, using agile DevOps processes.
 
-Running on Red Hat® OpenShift®, IBM Cloud Pak for Applications provides a hybrid, multicloud foundation built on open standards, enabling workloads and data to run anywhere. It integrates two main opensource platforms [Kabanero](https://kabanero.io/) and [Appsody](https://appsody.dev/).
+Running on Red Hat® OpenShift®, IBM Cloud Pak for Applications provides a hybrid, multicloud foundation built on open standards, enabling workloads and data to run anywhere. It integrates two main opensource projects [Kabanero](https://kabanero.io/) and [Appsody](https://appsody.dev/).
 
 
 
@@ -45,19 +45,32 @@ There are 5 services under "views" folder running in a single project that are t
 ![GitHub Logo](images/ss1.png)
 
 ### 2. Understand how to break down our monolithic application
+ 
+Here are 5 tightly coupled services:
+ 
+1. Admin login
+2. Admin Dashboard
+3. User Login 
+4. User Dashboard
+5. Not found Servive
 
-There are 5 services running in the project , lets break down our monolithic application by evaluating which services are tightly coupled and on the high load on that service can effect the other services and maybe complete project. So let breakdown admin and customer services.
+After looking at above services we can identendify that we can breakdown Admin(login , dashboard) and User (login,dashboard) services into Microservices so they can run independently , because both the services have different functionalities so we can scale it depending on the workload.
 
-There will be two microservices.
+Breakdown will be into two microservices:
 
 1. Admin Microservice
-2. Customer Microservice
+2. User Microservice
+
+How will we do that?
+We will put Admin services in one project and User into another and deploy it on central repo (github) both will have their own dependencies and run independtly . Below architecture diagram explan everything pretty clearly , don't worry if it doesn't make sense to you right now after next few steps you will learn and understand how to do that.
+
+
 
 ![GitHub Logo](images/micro.png)
 
 
 ### 3. Install Codewind in Visual Studio to create microservices test and deploy to github
-Once we have decided which service needs to be converted into micro-services  , initialize codewind in our visual studio that will help us to do local development , testing services and containerizing it. Please follow the below steps to work with codewind:
+Once we have decided which service needs to be converted into micro-services ,initialize codewind in our visual studio that will help us to do local development , testing services and containerizing it. Please follow the below steps to work with codewind:
 
 1. Open VisualStudio.
 2. On left select Extensions and search for Codewind.
