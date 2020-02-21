@@ -61,7 +61,7 @@ Breakdown will be into two microservices:
 1. Admin Microservice
 2. User Microservice
 
-***How will we do that?***
+#### How will we do that?####
 We will put Admin services in one project and User into another and deploy it on central repo (github) both will have their own dependencies and run independtly . Below architecture diagram explan everything pretty clearly , don't worry if it doesn't make sense to you right now after next few steps you will learn and understand how to do that.
 
 
