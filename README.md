@@ -61,7 +61,7 @@ Breakdown will be into two microservices:
 1. Admin Microservice
 2. User Microservice
 
-#### How will we do that?####
+#### How will we do that?
 We will put Admin services in one project and User into another and deploy it on central repo (github) both will have their own dependencies and run independtly . Below architecture diagram explan everything pretty clearly , don't worry if it doesn't make sense to you right now after next few steps you will learn and understand how to do that.
 
 
@@ -91,9 +91,10 @@ Once we have decided which service needs to be converted into micro-services ,in
 
 12. Run `appsody build` so that application would be ready to deploy on any cloud.
 13. After the command executed successfully on left there will be new file named as **app-deploy.yaml**.
-14. Follow steps form 1-13 to create 2 microservice **micro-User** 
-
-15. Once two microservices are created we can upload it to centeral repositry **github**.
+14  We have successfully created Admin microservice.
+15. Follow the step 3 again to create 2 microservice and name it **micro-user** . Now below will be the structure of your project.
+![GitHub Logo](images/ss.png)
+16. Once two microservices are created we can upload it one by one to centeral repositry **github**.
 
 If we face any difficulty in creating microservices please take a look here:
 1. [Admin-microservice](https://github.com/mahsankhaan/micro-admin.git)
