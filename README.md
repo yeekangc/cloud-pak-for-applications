@@ -93,7 +93,9 @@ Once we have decided which service needs to be converted into micro-services ,in
 13. After the command executed successfully on left there will be new file named as **app-deploy.yaml**.
 14  We have successfully created Admin microservice.
 15. Follow the step 3 again to create 2 microservice and name it **micro-user** . Now below will be the structure of your project.
+
 ![GitHub Logo](images/ss.png)
+
 16. Once two microservices are created we can upload it one by one to centeral repositry **github**.
 
 If we face any difficulty in creating microservices please take a look here:
