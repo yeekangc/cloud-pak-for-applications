@@ -27,7 +27,7 @@ To complete the steps in this tutorial, you need to:
 3. [Install Codewind in Visual Studio to create microservices test and deploy to github](#3-install-codewind-in-visual-studio- to-create-microservices-test-and-deploy-to-github)
 4. [Intialize Tekton and integrate with github repository](#4-intialize-tekton-and-integrate-with-github-repository)
 5. [Verify if the microservices are up and running](#5-verify-if-the-microservices-are-up-and-running)
-
+6. [Conclusion](#conclusion)
 
 ### 1. Clone and understand the architecture of monolithic application
 
@@ -75,12 +75,12 @@ Once we have decided which service needs to be converted into micro-services ,in
 1. Open VisualStudio.
 2. On left select Extensions and search for Codewind.
 3. Select Install and kindly wait it will take some time to initialize.
-4. Once successfully installed you'll be able to see "Codewind" section on the left
+4. Once successfully installed you'll be able to see **Codewind** section on left
 5. Select **Codewind** and start local codewind.
 6. Right click on local and select **Create New Project** 
 7. Select templete **Kabanero Node.js Express simple template**
 8. Name it as **micro-admin**.
-9. Now your structure will be something like 
+9. Now your structure will be something like:
 
 ![GitHub Logo](images/s2.png)
 
@@ -177,3 +177,5 @@ b. micro-user
 
 ![GitHub Logo](images/ss2.png)
 
+### 6. Conclusion
+In this tutorial we have learn the complete lifecycle of Architecture modernization using Cloud Pak for Applications. We've seen how can we integrate codewind in our local development that helps in containerzing our microservices and deploy it to github , from there we integrate tekton that helps in CI/CD process that fetches all the changes done by the local development team. Both the microservices running successfully and independently on Openshift and now we can scale them depending on the workload. In the future we can integrate as many microservices as we want without effecting or shuting down the complete application.
