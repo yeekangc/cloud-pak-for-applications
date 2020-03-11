@@ -40,7 +40,7 @@ To complete the steps in this tutorial, you need to:
 
 ![GitHub Logo](images/m1.png)
 
-There are 5 services under "views" folder running in a single project that are tightly coupled. If we get a traffic on a single service , complete project goes down that is one of the major disadvantage of monolithic architecture. 
+There are 5 services under the "views" folder running in a single project that are tightly coupled. If we get traffic on a single service, complete project goes down which is one of the major disadvantages of monolithic architecture
 
 ![GitHub Logo](images/sc.png)
 
@@ -54,7 +54,7 @@ Here are 5 tightly coupled services:
 4. User Dashboard
 5. Not found Servive
 
-After looking at above services we can identendify that we can breakdown Admin(login , dashboard) and User (login,dashboard) services into Microservices so they can run independently , because both the services have different functionalities so we can scale it depending on the workload.
+After looking at the above services we can identify that we can breakdown Admin(login, dashboard) and User (login, dashboard) services into Microservices so they can run independently because both the services have different functionalities so we can scale it depending on the workload.
 
 Breakdown will be into two microservices:
 
@@ -62,15 +62,13 @@ Breakdown will be into two microservices:
 2. User Microservice
 
 #### How will we do that?
-We will put Admin services in one project and User into another and deploy it on central repo (github) both will have their own dependencies and run independtly . Below architecture diagram explan everything pretty clearly , don't worry if it doesn't make sense to you right now after next few steps you will learn and understand how to do that.
-
-
+We will put Admin services in one project and User into another and deploy it on the central repo (Github) both will have their own dependencies and run independently. Below architecture diagram explain everything pretty clearly, don't worry if it doesn't make sense to you right now after the next few steps you will learn and understand how to do that.
 
 ![GitHub Logo](images/micro.png)
 
 
 ### 3. Install Codewind in Visual Studio to create microservices test and deploy to github
-Once we have decided which service needs to be converted into micro-services ,initialize codewind in our visual studio that will help us to do local development , testing services and containerizing it. Please follow the below steps to work with codewind:
+Once we have decided which service needs to be converted into micro-services, initialize codewind in our visual studio that will help us to do local development, testing services and containerizing it. Please follow the below steps to work with codewind:
 
 1. Open VisualStudio.
 2. On left select Extensions and search for Codewind.
@@ -78,7 +76,7 @@ Once we have decided which service needs to be converted into micro-services ,in
 4. Once successfully installed you'll be able to see **Codewind** section on left
 5. Select **Codewind** and start local codewind.
 6. Right click on local and select **Create New Project** 
-7. Select templete **Kabanero Node.js Express simple template**
+7. Select template **Kabanero Node.js Express simple template**
 8. Name it as **micro-admin**.
 9. Now your structure will be something like:
 
@@ -89,10 +87,10 @@ Once we have decided which service needs to be converted into micro-services ,in
 
 ![GitHub Logo](images/s3.png)
 
-12. Run `appsody build` so that application would be ready to deploy on any cloud.
+12. Run `appsody build` so that the application would be ready to deploy on any cloud.
 13. After the command executed successfully on left there will be new file named as **app-deploy.yaml**.
 14  We have successfully created Admin microservice.
-15. Follow the step 3 again to create 2 microservice and name it **micro-user** . And you will end up with like below structure.
+15. Follow the step 3 again to create 2 microservice and name it **micro-user** . And you will end up with like the below structure.
 
 ![GitHub Logo](images/ss.png)
 
@@ -107,7 +105,7 @@ To learn more about Codewind please visit [here](https://www.eclipse.org/codewin
 
 ### 4. Intialize Tekton and integrate with github repository
 
-Before we instailize Tekton it is really important to have github token ,so lets create two tokens for admin and user.
+Before we initialize Tekton it is really important to have github token ,so let's create two tokens for admin and user.
 Settings -> Developer settings -> personal access token -> generate new token 
 
 ![GitHub Logo](images/s6.png)
@@ -121,19 +119,19 @@ Once both tokens are created you will able to see below image :
 
 
 #### What is Tekton and why are we using it ?
-Tekton is a powerful yet flexible Kubernetes-native open-source framework for creating continuous integration and delivery (CI/CD) systems. We are using Tekton because it is a built in tool in Cloud Pak for Applications that connect our central repositry **github** and **Webhook** that lift and shift our application source code form local development to cloud.
+Tekton is a powerful yet flexible Kubernetes-native open-source framework for creating continuous integration and delivery (CI/CD) systems. We are using Tekton because it is a built in tool in Cloud Pak for Applications that connect our central repository **github** and **Webhook** that lift and shift our application source code form local development to cloud.
 
 To know about it please visit [here](https://developer.ibm.com/articles/introduction-to-tekton-architecture-and-design/)
 
-Please follow below steps to intialize Tekton:
+Please follow below steps to initialize Tekton:
 1. Open Openshift Web Console.
-2. Once you are logged in successfully , select **Kabanero** from my project section.
+2. Once you are logged in  successfully, select **Kabanero** from my project section.
 3. From left menu select **Cloud Pak for Applications**
 4. Now you can see the below screen.
 
 ![GitHub Logo](images/s4.png)
 
-5. Please go to Instance ,in Tools section select  **tekton** link and you will be redirected to below image.
+5. Please go to Instance ,in Tools section select  **tekton** link and you will be redirected to the below image.
 
 ![GitHub Logo](images/s5.png)
 
@@ -150,12 +148,12 @@ b. micro-user
 
 7 . Now check if tekton and github are successfully connected. 
 
-**IMPORTANT NOTE** Don't worry if you are getting red sign, it will turn green once the repo code is updated)
+**IMPORTANT NOTE** Don't worry if you are getting a red sign, it will turn green once the repo code is updated)
 
 ![GitHub Logo](images/s8.png)
 
 
-8. Do some changes to github repositry and you will see it is successfully deployed.
+8. Do some changes to github repository and you will see it is successfully deployed.
 
 **IMPORTANT NOTE** : First do the changes in admin repo and once it is successfully deployed then update the user repo.
 
@@ -163,8 +161,8 @@ b. micro-user
 
 
 ### 5. Verify if the microservices are up and running
-1. Open Openshift dashboard.
-2. Once dashboard is open from left menu select Application.
+1. Open the Openshift dashboard.
+2. Once the dashboard is open from left menu select Application.
 3. Go in routes and there will be two services up and running.
 4. To run the application click links in **Hostname**
 
@@ -179,4 +177,4 @@ b. micro-user
 ![GitHub Logo](images/ss2.png)
 
 ### 6. Conclusion
-In this tutorial we have learn the complete lifecycle of Architecture modernization using Cloud Pak for Applications. We've seen how can we integrate codewind in our local development that helps in containerzing our microservices and deploy it to github , from there we integrate tekton that helps in CI/CD process that fetches all the changes done by the local development team. Both the microservices running successfully and independently on Openshift and now we can scale them depending on the workload. In the future we can integrate as many microservices as we want without effecting or shuting down the complete application.
+In this tutorial, we have learned the complete lifecycle of Architecture modernization using Cloud Pak for Applications. We've seen how can we integrate codewind in our local development that helps in containerizing  our microservices and deploy it to github , from there we integrate tekton that helps in CI/CD process that fetches all the changes done by the local development team. Both the microservices running successfully and independently on Openshift and now we can scale them depending on the workload. In the future, we can integrate as many microservices as we want without effecting or shutting down the complete application.
