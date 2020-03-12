@@ -118,7 +118,7 @@ Once both tokens are created you will able to see below image :
 ![GitHub Logo](images/s12.png)
 
 
-**IMPORTANT NOTE :** Please copy the token ,as you won’t be able to see it again! 
+**IMPORTANT NOTE :** Please copy the token, as you won’t be able to see it again! 
 
 
 #### What is Tekton and why are we using it ?
@@ -134,7 +134,7 @@ Please follow below steps to initialize Tekton:
 
 ![GitHub Logo](images/s4.png)
 
-5. Please go to Instance ,in Tools section select  **tekton** link and you will be redirected to the below image.
+5. Please go to Instance, in Tools section select  **tekton** link and you will be redirected to the below image.
 
 ![GitHub Logo](images/s5.png)
 
