@@ -70,7 +70,7 @@ We will put Admin services in one project and User into another and deploy it on
 ![GitHub Logo](images/micro.png)
 
 
-### 3. Install Codewind in Visual Studio to create 
+### 3. Install Codewind in Visual Studio to create microservices test and deploy to github 
 Once we have decided which service needs to be converted into micro-services, initialize codewind in our visual studio that will help us to do local development, testing services and containerizing it. Please follow the below steps to work with codewind:
 
 1. Open VisualStudio.
