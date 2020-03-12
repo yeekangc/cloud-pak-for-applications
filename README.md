@@ -24,7 +24,7 @@ To complete the steps in this tutorial, you need to:
 ## Steps:
 1. [Clone and understand the architecture of monolithic application](#1-clone-and-understand-the-architecture-of-monolithic-application)
 2. [Understand how to break down our monolithic application](#2-understand-how-to-break-down-our-monolithic-application)
-3. [Install Codewind in Visual Studio to create ](#3-install-codewind-in-visual-studio-to-create)
+3. [Install Codewind in Visual Studio to create microservices test and deploy to github](#3-install-codewind-in-visual-studio-to-create-microservices-test-and-deploy-to-github)
 4. [Intialize Tekton and integrate with github repository](#4-intialize-tekton-and-integrate-with-github-repository)
 5. [Verify if the microservices are up and running](#5-verify-if-the-microservices-are-up-and-running)
 6. [Conclusion](#conclusion)
@@ -47,7 +47,7 @@ There are 5 services under the "views" folder running in a single project that a
 
 ![GitHub Logo](images/sc.png)
 
-### 2. Understand how to break down our monolithic application
+### 2. Install Codewind in Visual Studio to create microservices test and deploy to github 
  
 Here are 5 tightly coupled services:
  
