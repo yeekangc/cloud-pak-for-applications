@@ -36,7 +36,7 @@ To complete the steps in this tutorial, you need to:
 
 1. We'll use this repo as it contains our Banking Monolithic Application. 
 2. Open your terminal and change your directory by using the cd downloads command. (Or any other directory in which you want to clone the project)
-3. Run command `https://github.com/mahsankhaan/cloud-pak-for-applications.git`.   
+3. Run command `git clone https://github.com/mahsankhaan/cloud-pak-for-applications.git`.   
 4. Open the project in Visual Studio.
 
 #### Architecture of the monolithic application
@@ -85,14 +85,14 @@ Once we have decided which service needs to be converted into micro-services, in
 
 ![GitHub Logo](images/s2.png)
 
-10. Go to **Codewind** in VS you must see your poject there running as "micro-admin" right-click it and select **Open Applicaiton** this will popup the page and from there **enable project** if it is disable and then select **build** , **Application Endpoint** will show where your application must be up and running.
+10. Go to **Codewind** in VS you must see your project there running as "micro-admin" right-click it and select **Open Applicaiton** this will popup the page and from there **enable project** if it is disable and then select **build**. Check **Application Endpoint** it shows where your application running.
 
 11. Test your application by right clicking micro-admin -> **Application Monitor** and hit the application 2 or 3 times to see the changes.
 
 ![GitHub Logo](images/s3.png)
 
-12. Run `appsody build` in your VS terminal which will create a deployment file template for you and later on help us deploying on CP4A.
-13. After above command executed successfully on left there will be new file named as **app-deploy.yaml**.
+12. Run `appsody build` in your VS terminal which will create a deployment file template for us and later on help in deploying our application on CP4A.
+13. After above command executed successfully on left there will be new generated file as **app-deploy.yaml**.
 14  We have successfully created Admin microservice.
 15. Follow the step 3 again to create 2 microservice and name it **micro-user** . And you will end up with like the below structure.
 
@@ -157,11 +157,16 @@ b. micro-user
 ![GitHub Logo](images/s8.png)
 
 
-8. Open your Github do some changes in **(views -> user.js)** in user repo , this step is required to trigger the Tekton pipeline. Then wait for a while and you will see in Tekton pipeline dashboard in your your application successfully build and deploy.
+8. Open your Github do some changes in **(views -> user.js)** in user repository, important step to trigger the Tekton pipeline. 
 
-**IMPORTANT NOTE** : First do the changes in user repo and once it is successfully deployed then update the admin repo.(vice versa)
+9. Next, open your Tekton dashboard on left from Tekton dropdown select **Pipeline Runs**. 
 
-For more details about Tekton, please check out this great tutorial [here] (https://developer.ibm.com/tutorials/deploy-appsody-to-openshift-with-tekton-pipelines/)
+10. Wait for sometime until you see your Status as **All tasks completed executing**. It means we have successfully integrated our central repo to our Tekton instance on IBM Cloud Pak for applciations.  
+
+
+**IMPORTANT NOTE** : First do the changes in **User repository** and once it is successfully build and deploy then update the **Admin repository** or vice versa.
+
+For more details about Tekton, please check out this great tutorial [here](https://developer.ibm.com/tutorials/deploy-appsody-to-openshift-with-tekton-pipelines/)
 
 ![GitHub Logo](images/s9.png)
 
