@@ -1,6 +1,6 @@
-Monolithic to Microservices Architecture using IBM Cloud Pak for Applications
+# Traditional core  Monolithic Banking application implemented in Node.js to Mordernize  Microservices Architecture using IBM Cloud Pak for Applications
 
-In this tutorial, we will learn how to use IBM Cloud Pak for Applications to break down our monolithic (Core Banking) application implemented in Node.js into microservices.  
+In this tutorial, we will learn and see the complete life cycle of core monolithic banking application implemented in node.js to modernzie mircoservices architecture using IBM Cloud Pak for Applications.
 
 ## IBM Cloud Pak for Applications:
 The IBM Cloud Pak™ for Applications provides a complete and consistent experience to speed development of applications built for Kubernetes, using agile DevOps processes.
