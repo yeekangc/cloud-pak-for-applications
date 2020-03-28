@@ -6,37 +6,21 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'node_modules')));
 app.use(express.static(path.join(__dirname, 'public')));
 
-
 app.get("/home", function(req,res){
     console.log("I am home");
     res.send("Hello everyone");
-
 });
-
 app.get("/", function(req,res){
     res.render("user_login");
     console.log("User login");
-
-//const id = req.params.id;
-//const pass = req.params.pass;
 });
-
-
-
-
 app.get("/admin_login", function(req,res){
     res.render("admin_login");
     console.log("User login");
-
 });
-
-
-
 app.get("/admin_in", function(req,res){ 
     var Name = req.query.name;
     var Password = req.query.pass;
-//console.log(Name);
-
 if (Password =="123")
 {
     const customer = [
@@ -52,35 +36,23 @@ if (Password =="123")
 else{
     res.render("notfound.ejs");
 }
-   
 });
-
-
 app.get("/user_login", function(req,res){
     res.render("user_login");
     console.log("User login");
-
 });
-
-
 app.get("/user_in", function(req,res){ 
     var Name = req.query.name;
     var Password = req.query.pass;
-//console.log(Name);
-
 if (Password =="123")
-{
-   
+{ 
   console.log("Successfully logged in as Customer");
   res.render("users");
 }
 else{
     res.render("notfound.ejs");
 }
-   
 });
-//module.exports.app = app;
 app.listen(3000 , function(){
     console.log("App is running");
-
 });
