@@ -1,6 +1,7 @@
-# Traditional core  Monolithic Banking application implemented in Node.js to Mordernize  Microservices Architecture using IBM Cloud Pak for Applications
+# Traditional core monolithic banking application implemented in Node.js to mordernize microservices architecture using IBM Cloud Pak for Applications
 
-In this tutorial, we will learn and see the complete life cycle of core monolithic banking application implemented in node.js to modernzie mircoservices architecture using IBM Cloud Pak for Applications.
+In this tutorial, we will learn and see the complete life cycle of core monolithic banking application implemented in node.js to modernize microservices architecture using IBM Cloud Pak for Applications.
+
 
 ## IBM Cloud Pak for Applications:
 The IBM Cloud Pak™ for Applications provides a complete and consistent experience to speed development of applications built for Kubernetes, using agile DevOps processes.
@@ -32,7 +33,7 @@ To complete the steps in this tutorial, you need to:
 
 ### 1. Clone and understand the architecture of monolithic application
 
-1. We'll use this repo as it contains our Banking Monolithic Application. 
+1. We'll use this repo as it contains our core banking traditional Monolithic Application. 
 2. Open your terminal and change your directory by using the cd downloads command. (Or any other directory in which you want to clone the project)
 3. Run command `git clone https://github.com/mahsankhaan/cloud-pak-for-applications.git`.   
 4. Open the project in Visual Studio.
@@ -186,4 +187,4 @@ For more details about Tekton, please check out this great tutorial [here](https
 ![GitHub Logo](images/ss2.png)
 
 ### 6. Conclusion
-In this tutorial, we have learned the complete lifecycle of Architecture modernization using IBM Cloud Pak for Applications. We've seen how can we integrate Codewind in our visual studio that helps in breaking down the monolithic project into microservices and how can we test, debug and monitor each service independently. Once we are satisfied with our services in local development then we can deploy it to the central repo GitHub.From there learn how to create GitHub token and integrate Tekton instance from CP4A that helps in CI/CD process that fetches all the changes done by the local development team. Both the microservices running successfully and independently on Openshift and now we can scale them depending on the workload. In the future, we can integrate as many microservices as we want without affecting or shutting down the complete application.
+In this tutorial, we have learned the complete lifecycle of Architecture modernization using IBM Cloud Pak for Applications. We've seen how can we integrate Codewind in our visual studio that helps in breaking down the one traditional monolithic project containing multiple services into two projects containing related services to each project and how can we test, debug and monitor each project services independently. Once we are satisfied with our projects in local development then we can deploy it to the central repo GitHub. From there we learn how to create GitHub token and integrate Tekton instance from IBM Cloud Pak for Applications that help in CI/CD process that triggers all the changes implemented by the local development team. Both the projects running successfully and independently on  IBM Cloud Pak for Applications and now we can scale them depending on the workload. In the future, we can integrate as many microservices as we want without affecting or shutting down the complete project.
