@@ -24,13 +24,11 @@ To complete the steps in this tutorial, you need to:
 ## Steps:
 1. [Clone and understand the architecture of monolithic application](#1-clone-and-understand-the-architecture-of-monolithic-application)
 2. [Understand how to break down our monolithic application](#2-understand-how-to-break-down-our-monolithic-application)
-3. [Install Codewind in Visual Studio to create microservices test and deploy to github](#3-install-codewind-in-visual-studio-to-create-microservices-test-and-deploy-to-github)
+3. [Install Codewind in Visual Studio to create microservices test and deploy to GitHub](#3-install-codewind-in-visual-studio-to-create-microservices-test-and-deploy-to-GitHub)
 4. [Intialize Tekton and integrate with github repository](#4-intialize-tekton-and-integrate-with-github-repository)
 5. [Verify if the microservices are up and running](#5-verify-if-the-microservices-are-up-and-running)
 6. [Conclusion](#conclusion)
 
-
- microservices test and deploy to GitHub
 
 ### 1. Clone and understand the architecture of monolithic application
 
@@ -61,8 +59,8 @@ After looking at the above services we can identify that we can breakdown Admin(
 
 Breakdown will be into two microservices:
 
-1. Admin Microservice
-2. User Microservice
+1. [Admin Microservice](https://github.com/mahsankhaan/micro-admin)
+2. [User Microservice](https://github.com/mahsankhaan/micro-user)
 
 #### How will we do that?
 We will put Admin services in one project and User into another and deploy it on the central repo (Github) both will have their dependencies and run independently. Below architecture diagram explain everything pretty clearly, don't worry if it doesn't make sense to you right now after the next few steps you will learn and understand how to do that.
@@ -98,7 +96,7 @@ Once we have decided which service needs to be converted into micro-services, in
 
 ![GitHub Logo](images/ss.png)
 
-16. Once two microservices are created we can upload it one by one to central repository **github**.
+16. Once two microservices are created we can upload it one by one to central repository **GitHub**.
 
 Note: If you face any difficulty in executing step 3 please check out my repositories available created using Codewind
 1. [Admin-microservice](https://github.com/mahsankhaan/micro-admin.git)
