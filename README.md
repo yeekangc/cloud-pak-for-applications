@@ -90,16 +90,16 @@ Once we have decided which service needs to be converted into micro-services, in
 
 ![GitHub Logo](images/s3.png)
 
-12. Run `appsody build` so that the application would be ready to deploy on any cloud.
-13. After the command executed successfully on left there will be new file named as **app-deploy.yaml**.
+12. Run `appsody build` in your VS terminal which will create a deployment file template for you and later on help us deploying on CP4A.
+13. After above command executed successfully on left there will be new file named as **app-deploy.yaml**.
 14  We have successfully created Admin microservice.
 15. Follow the step 3 again to create 2 microservice and name it **micro-user** . And you will end up with like the below structure.
 
 ![GitHub Logo](images/ss.png)
 
-16. Once two microservices are created we can upload it one by one to centeral repositry **github**.
+16. Once two microservices are created we can upload it one by one to central repository **github**.
 
-If we face any difficulty in creating microservices please take a look here:
+Note : If you face any difficulty in executing step 3 please check out my repositories available created using codewind
 1. [Admin-microservice](https://github.com/mahsankhaan/micro-admin.git)
 2. [User-microservice](https://github.com/mahsankhaan/micro-user.git)
 
