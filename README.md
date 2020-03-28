@@ -19,7 +19,7 @@ To complete the steps in this tutorial, you need to:
 
 3. Get access to a Red Hat OpenShift on IBM Cloud cluster, with IBM Cloud Pak for Applications from [here](https://cloud.ibm.com/kubernetes/catalog/openshiftcluster?cm_sp=ibmdev-_-developer-tutorials-_-cloudreg).
 
-4. Must have Github account 
+4. Must have [Github](https://github.com/) account 
 
 ## Steps:
 1. [Clone and understand the architecture of monolithic application](#1-clone-and-understand-the-architecture-of-monolithic-application)
