@@ -85,7 +85,8 @@ Once we have decided which service needs to be converted into micro-services, in
 
 ![GitHub Logo](images/s2.png)
 
-10. Select Codewind and **build the project** , application must be up and running.
+10. Go to **Codewind** in VS you must see your poject there running as "micro-admin" right-click it and select **Open Applicaiton** this will popup the page and from there **enable project** if it is disable and then select **build** , **Application Endpoint** will show where your application must be up and running.
+
 11. Test your application by right clicking micro-admin -> **Application Monitor** and hit the application 2 or 3 times to see the changes.
 
 ![GitHub Logo](images/s3.png)
@@ -156,9 +157,11 @@ b. micro-user
 ![GitHub Logo](images/s8.png)
 
 
-8. Do some changes to github repository and you will see it is successfully deployed.
+8. Open your Github do some changes in **(views -> user.js)** in user repo , this step is required to trigger the Tekton pipeline. Then wait for a while and you will see in Tekton pipeline dashboard in your your application successfully build and deploy.
 
-**IMPORTANT NOTE** : First do the changes in admin repo and once it is successfully deployed then update the user repo.
+**IMPORTANT NOTE** : First do the changes in user repo and once it is successfully deployed then update the admin repo.(vice versa)
+
+For more details about Tekton, please check out this great tutorial [here] (https://developer.ibm.com/tutorials/deploy-appsody-to-openshift-with-tekton-pipelines/)
 
 ![GitHub Logo](images/s9.png)
 
