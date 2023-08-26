@@ -13,7 +13,7 @@ Running on Red Hat® OpenShift®, IBM Cloud Pak for Applications provides a hybr
 
 To complete the steps in this tutorial, you need to:
 
-1. [Install Docker](https://docs.docker.com/install/) on your local machine.
+1. Install [Docker](https://docs.docker.com/install/) on your local machine.
 
 2. Install [Visual Studio Code](https://code.visualstudio.com/) for local development.
 
@@ -60,7 +60,7 @@ There will be two microservices.
 Once we have decided which service needs to be converted into micro-services  , initialize codewind in our visual studio that will help us to do local development , testing services and containerizing it. Please follow the below steps to work with codewind:
 
 1. Open VisualStudio.
-2. On left select Extensions and search for Codewind.
+2. On the left select Extensions and search for Codewind.
 3. Select Install and kindly wait it will take some time to initialize.
 4. Once successfully installed you'll be able to see "Codewind" section on the left
 5. Select **Codewind** and start local codewind.
@@ -96,7 +96,7 @@ Settings -> Developer settings -> personal access token -> generate new token
 
 ![GitHub Logo](images/s6.png)
 
-Once both tokens are created you will able to see below image :
+Once both tokens are created you will able to see below image:
 
 ![GitHub Logo](images/s12.png)
 
